@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Gem that gives all police stations in Chicago}
   spec.description   = %q{Finds All Police stations in chicago}
-  spec.homepage      = https://github.com/Jmonzon0415/Pig_Sniffer-Gem
+  spec.homepage      = "https://github.com/Jmonzon0415/Pig_Sniffer-Gem"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
