@@ -28,6 +28,7 @@ Finds All Police stations in chicago
 police = PigSniffer::Police.all
 
 ```
+search by department
 
 ```ruby
 police = PigSniffer::Police.search('headquarters')

@@ -30,7 +30,7 @@ end
   end
 
   def self.search(search_keyword)
-    api_array = Unirest.get("https://data.cityofchicago.org/resource/z8bn-74gv.json$q=#{search_keyword}")").body
+    api_array = Unirest.get("https://data.cityofchicago.org/resource/z8bn-74gv.json$q=#{search_keyword}").body
     police_stations = []
 
     police_stations = []
