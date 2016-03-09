@@ -28,10 +28,10 @@ Finds All Police stations in chicago
 police = PigSniffer::Police.all
 
 ```
-search by department
+search by Address
 
 ```ruby
-police = PigSniffer::Police.search('headquarters')
+police = PigSniffer::Police.search_address('1718 S State St')
 ```
 
 ## Development
