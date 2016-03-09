@@ -11,16 +11,16 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Gem that gives all police stations in Chicago}
   spec.description   = %q{Finds All Police stations in chicago}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = https://github.com/Jmonzon0415/Pig_Sniffer-Gem
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
-  else
-    raise "RubyGems 2.0 or newer is required to protect against public gem pushes."
-  end
+  # if spec.respond_to?(:metadata)
+  #   spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
+  # else
+  #   raise "RubyGems 2.0 or newer is required to protect against public gem pushes."
+  # end
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
